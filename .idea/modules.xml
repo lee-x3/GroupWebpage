@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Webpage_GroupAssignment.iml" filepath="$PROJECT_DIR$/.idea/Webpage_GroupAssignment.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/GroupWebpage-main.iml" filepath="$PROJECT_DIR$/.idea/GroupWebpage-main.iml" />
+>>>>>>> origin/main
     </modules>
   </component>
 </project>

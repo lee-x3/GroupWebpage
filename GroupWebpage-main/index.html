@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+
 </head>
 <body>
 
@@ -28,7 +29,8 @@
         <img src="img/LeeXia-Avatar.png" alt="Xia Lee Avatar"/>
         <p>UX/UI Designer</p>
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">Xia Lee is a Senior at UNC Charlotte and aspires to become a UX/UI designer. She has a passion for creating intuitive, user-centered designs. </p>
+        <p id="bio1" class="bio">Xia Lee is a Senior at UNC Charlotte majoring in Computer Science. She aspires to become a UX/UI designer and has a passion for creating intuitive, user-centered designs.<br>
+        GitHub: <a href="https://github.com/lee-x3" target="_blank" rel="noopener noreferrer">https://github.com/lee-x3</a></p>
     </div>
     <div class="card">
         <h2>Muxin Feng</h2>
@@ -38,9 +40,12 @@
     </div>
     <div class="card">
         <h2>Abby Travers</h2>
-        <p>UI/UX Designer</p>
+        <img src="img/Abby-Avatar.png" alt="Abby Avatar"/>
+        <p>Frontend Developer</p>
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <p id="bio3" class="bio">Abby is a senior at UNCC studying computer science. With goals to become a frontend developer and also has a passion for learning how to create and design video games.
+            GitHub: <a href="https://github.com/abelinc00" target="_blank" rel="noopener noreferrer">https://github.com/abelinc00</a>
+        </p>
     </div>
     <div class="card">
         <h2>James Kirk</h2>
@@ -51,9 +56,24 @@
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
-<div id="vision" class="container" style="display: none;">
-    <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+<div id="vision">
+    <div class="card">
+        <h2>Team Mission:</h2>
+        <p>
+            Our mission is to leverage innovative technology and effective project management to deliver exceptional solutions that enhance user experience and drive success. We foster collaboration and continuous learning, aiming to tackle challenges and support each other's growth while making a positive impact in our organization and community.
+        </p>
+    </div>
+
+    <div class ="card">
+        <h2>Team Rules:</h2>
+        <ul>
+            <li>Communicate with team members in advance if delays/absence arises. We understand that sometimes life happens.</li>
+            <li>Commit to completing tasks on time to meet group deadlines.</li>
+            <li>Regularly keep each team member up-to-date about the group projects.</li>
+            <li>Ensure fair work/tasks distribution, so no team members feel as if they are doing more than another.</li>
+        </ul>
+    </div>
+
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->

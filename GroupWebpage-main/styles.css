@@ -26,8 +26,8 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
-    color: white;
+    background: #00fcf9;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -36,7 +36,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #ffffff;
 }
 
 /* Flex container for team bios and vision sections */
@@ -77,8 +77,8 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
-    color: white;
+    background: #00fcf9;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -86,10 +86,17 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #333333;
 }
 
 .card img{
     width: 200px;
     height: 200px;
+}
+
+#vision .card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
